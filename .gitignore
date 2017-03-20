@@ -4,7 +4,6 @@
 # User-specific uVision files
 *.opt
 *.uvopt
-*.uvoptx
 *.uvgui
 *.uvguix.*
 
@@ -23,13 +22,11 @@
 *.b[0-3][0-9]
 *.hex
 *.d
-*.crf
 *.elf
 *.hex
 *.h86
 *.lib
 *.obj
-*.o
 *.sbr
 
 # Build files
