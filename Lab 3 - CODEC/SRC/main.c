@@ -103,6 +103,7 @@ void FLEXCOMM7_DriverIRQHandler(void)
 {
 		register float LeftChannel;
 		register float RightChannel;
+		register float ALLChannels;
 		
 	  I2S_FIFO_Data_t FIFO_Data; 
 	
@@ -124,7 +125,7 @@ void FLEXCOMM7_DriverIRQHandler(void)
 	   
 	   LeftChannel = (float)(FIFO_Data.Channel[0])/32768.0f;
 	   RightChannel = (float)(FIFO_Data.Channel[1])/32768.0f;
-
+		 ALLChannels = (LeftChannel + RightChannel)/32768.0f;
 		/*
 			Do something with the Left and Right channel here
 		
