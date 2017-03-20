@@ -2,10 +2,10 @@
 # Taken mostly from http://www.keil.com/support/man/docs/uv4/uv4_b_filetypes.htm
 
 # User-specific uVision files
-*.opt
-*.uvopt
-*.uvgui
-*.uvguix.*
+#*.opt
+#*.uvopt
+#*.uvgui
+#*.uvguix.*
 
 # Listing files
 *.cod
@@ -20,13 +20,9 @@
 # Object and HEX files
 *.axf
 *.b[0-3][0-9]
-*.hex
 *.d
 *.elf
-*.hex
 *.h86
-*.lib
-*.obj
 *.sbr
 
 # Build files
@@ -49,7 +45,6 @@
 *.pack 	# define exception below if needed
 *.pdsc 	# define exception below if needed
 *.plg
-*.sct  	# define exception below if needed
 *.sfd
 *.sfr
 
